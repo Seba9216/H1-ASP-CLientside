@@ -1,11 +1,11 @@
 ﻿
 
 iframe {
-    position: fixed;
+    position: relative;
     border: none;
     display: inline-flex;
-    height: 1200px;
-    width: 1000px;
+    height: 10%;
+    width: 100%;
     top: 0;
 }
 .NavBar, ul, li {
@@ -13,7 +13,8 @@ iframe {
     display: inline-flex;
     list-style: none;
     align-content: space-evenly;
-    padding: 40px;
+    padding-left: 50px;
+    position:relative;
     top: 0;
 }
 header{
@@ -26,7 +27,9 @@ header{
     text-align:center
 }
 .NavBar img{
-    align-self:center
+    align-self:center;
+    position:fixed;
+    padding-right:10px;
 }
 a:hover {
     color: lightgreen;
