@@ -1,2 +1,7 @@
-﻿body {
+﻿body
+{
+    .iframe{
+        border: none;
+          }
+
 }
