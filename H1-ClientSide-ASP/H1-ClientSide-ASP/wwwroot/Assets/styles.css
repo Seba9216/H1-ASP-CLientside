@@ -1,7 +1,3 @@
-﻿body
-{
-    .iframe{
-        border: none;
-          }
-
+﻿iframe {
+    border: none;
 }
