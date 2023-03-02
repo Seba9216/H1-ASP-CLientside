@@ -23,8 +23,8 @@ iframe {
     top: 0;
     align-items:center;
 }
-header{
-    top:0; 
+header {
+    top: 0;
 }
 
 .NavBar a{
@@ -39,6 +39,15 @@ header{
     width:500%;
 }
 a:hover {
-    color: lightgreen;
+    color: rgba(0, 200, 0, 1);
     text-decoration: none;
+    background-color: rgba(0,0,0,0.01)
+}
+
+body {
+    background-color: rgba(0,0,0,0.009)
+}
+
+header {
+    background-color: rgba(255, 255, 255, 1);
 }
