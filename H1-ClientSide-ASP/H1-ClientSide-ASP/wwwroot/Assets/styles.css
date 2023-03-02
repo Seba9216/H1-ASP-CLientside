@@ -36,6 +36,7 @@ header{
     align-self:center;
     position:relative;
     height:auto;
+    width:500%;
 }
 a:hover {
     color: lightgreen;
