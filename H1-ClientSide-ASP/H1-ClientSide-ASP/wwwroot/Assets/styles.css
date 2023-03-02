@@ -2,4 +2,18 @@
 
 iframe {
     border: none;
+    display:inline-flex;
+    height: 200px;
+    width: 500px
+
+}
+.NavBar, ul, li {
+    align-items: flex-start;
+    display: inline-block;
+    list-style: none;
+    align-content: space-evenly;
+    padding: 7px
+}
+a:hover {
+    color:orange;
 }
