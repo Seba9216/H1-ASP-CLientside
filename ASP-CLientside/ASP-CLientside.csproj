@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Lib\" />
+    <Folder Include="wwwroot\WebApp\Assets\" />
   </ItemGroup>
 
 </Project>
