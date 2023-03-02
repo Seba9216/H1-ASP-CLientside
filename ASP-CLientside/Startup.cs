@@ -26,15 +26,9 @@ namespace ASP_CLientside
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRouting();
+            app.UseDefaultFiles();
+            app.UseStaticFiles(); 
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-            });
         }
     }
 }
