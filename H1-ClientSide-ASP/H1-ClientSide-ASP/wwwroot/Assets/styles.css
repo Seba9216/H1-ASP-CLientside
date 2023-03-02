@@ -8,14 +8,20 @@ iframe {
     width: 100%;
     top: 0;
 }
+
+.NavBar {
+    left:25%;
+}
+
 .NavBar, ul, li {
     align-items: flex-end;
     display: inline-flex;
     list-style: none;
     align-content: space-evenly;
-    padding-left: 50px;
+    padding-right: 50px;
     position:relative;
     top: 0;
+    align-items:center;
 }
 header{
     top:0; 
@@ -28,8 +34,8 @@ header{
 }
 .NavBar img{
     align-self:center;
-    position:fixed;
-    padding-right:10px;
+    position:relative;
+    height:auto;
 }
 a:hover {
     color: lightgreen;
