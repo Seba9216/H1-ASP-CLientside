@@ -388,3 +388,4 @@ H1-ClientSide-ASP/H1-ClientSide-ASP/obj/Debug/net6.0/H1-ClientSide-ASP.assets.ca
 /H1-ClientSide-ASP/H1-ClientSide-ASP/obj/Container/ContainerName.cache
 /H1-ClientSide-ASP/H1-ClientSide-ASP/obj/Container/warmup.sem
 /H1-ClientSide-ASP/H1-ClientSide-ASP/obj/Debug/net6.0/H1-ClientSide-ASP.assets.cache
+*.user
