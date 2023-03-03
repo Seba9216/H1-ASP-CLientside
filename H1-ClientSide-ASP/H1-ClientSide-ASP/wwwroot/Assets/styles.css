@@ -31,18 +31,19 @@ iframe {
         position: absolute;
         top: 5%;
         left: 10%;
+        padding-bottom: 40%;    
     }
 
     .Sektion-MedBillede button {
         display: block;
-        background-color: lightskyblue;
+        background-color: #23c8ff;
         height: 25px;
         border-radius: 7px;
         color: white;
         border: none;
-        position:absolute;
-        bottom:22%;
-        right:3%;
+        position: absolute;
+        bottom: 22%;
+        right: 3%;
         justify-content: space-between;
     }
 
@@ -52,7 +53,7 @@ iframe {
     }
 
     .Sektion-MedBillede button:hover {
-        background-color: lightblue;
+        background-color: #23efff;
         cursor: pointer
     }
 
