@@ -50,12 +50,13 @@ iframe {
     }
 header {
     top: 0;
+    font-size: 0;
 }
 
 .NavBar a{
     color: black; 
     text-decoration: none;
-    text-align:center
+    text-align:center;
 }
 .NavBar img{
     align-self:center;
@@ -66,11 +67,11 @@ header {
 a:hover {
     color: rgba(0, 200, 0, 1);
     text-decoration: none;
-    background-color: rgba(0,0,0,0.01)
+    background-color: rgba(0,0,0,0.01);
 }
 
 body {
-    background-color: rgba(0,0,0,0.009)
+    background-color: rgba(0,0,0,0.009);
 }
 
 header {
