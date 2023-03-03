@@ -12,17 +12,42 @@ iframe {
 .NavBar {
     left:25%;
 }
-
-.NavBar, ul, li {
-    align-items: flex-end;
-    display: inline-flex;
-    list-style: none;
-    align-content: space-evenly;
-    padding-right: 50px;
-    position:relative;
-    top: 0;
-    align-items:center;
+.Sektion-MedBillede {
+    font-family: 'DMSerifText',sans-serif;
+    color: white;
+    height: 150px;
+    width: 60%;
+    background-image: url(main-qimg-23026aa11412ac2a28cc8482ccd68259-lq.jfif);
+    padding-left: 10em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   background-size:cover
 }
+.Sektion-MedBillede  button{
+ display:block;
+ background-color:lightskyblue;
+ height:25px;
+ border-radius:7px;
+ color:white;
+ border:none;
+ right:25%; 
+ 
+}
+    .Sektion-MedBillede button:hover {
+        background-color: lightblue;
+        cursor: pointer
+    }
+    .NavBar, ul, li {
+        font-family: 'DMSerifText',sans-serif;
+        align-items: flex-end;
+        display: inline-flex;
+        list-style: none;
+        align-content: space-evenly;
+        padding-right: 50px;
+        position: relative;
+        top: 0;
+        align-items: center;
+    }
 header {
     top: 0;
 }
