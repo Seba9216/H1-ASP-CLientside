@@ -21,8 +21,17 @@ iframe {
     padding-left: 10em;
     padding-top: 100px;
     padding-bottom: 100px;
-   background-size:cover
+    background-size:cover;
+    position:relative
 }
+.Sektion-MedBillede h3
+{
+    color:pink;
+    position:relative;
+    bottom:500px;
+    right:400px;
+}
+
 .Sektion-MedBillede  button{
  display:block;
  background-color:lightskyblue;
@@ -30,8 +39,15 @@ iframe {
  border-radius:7px;
  color:white;
  border:none;
- right:25%; 
+ position:fixed; 
+ right:550px;
+ bottom:370px; 
+ justify-content:space-between;
  
+}
+.Sektion-MedBillede .Btn-1-Holder{
+    justify-content:flex-end;
+    display:flex;
 }
     .Sektion-MedBillede button:hover {
         background-color: lightblue;
