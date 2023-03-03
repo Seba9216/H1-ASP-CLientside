@@ -40,9 +40,9 @@ iframe {
         border-radius: 7px;
         color: white;
         border: none;
-        position: fixed;
-        right: 550px;
-        bottom: 370px;
+        position:absolute;
+        bottom:22%;
+        right:3%;
         justify-content: space-between;
     }
 
