@@ -26,10 +26,8 @@ iframe {
 }
 .Sektion-MedBillede h3
 {
-    color:pink;
-    position:relative;
-    bottom:500px;
-    right:400px;
+    position:fixed;
+  
 }
 
 .Sektion-MedBillede  button{
