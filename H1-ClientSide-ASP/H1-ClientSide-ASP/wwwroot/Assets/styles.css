@@ -37,8 +37,9 @@ iframe {
     .Sektion-MedBillede button {
         display: block;
         background-color: #23c8ff;
-        height: 25px;
+        height: 35px;
         border-radius: 7px;
+        font-size: 15px;
         color: white;
         border: none;
         position: absolute;
@@ -50,6 +51,17 @@ iframe {
     .Sektion-MedBillede .Btn-1-Holder {
         justify-content: flex-end;
         display: flex;
+    }
+
+    .Sektion-MedBillede a{
+        color:white;
+        text-decoration: none;
+        display:block
+      
+    }
+    .Sektion-MedBillede li {
+        color: white;
+        text-decoration: none;
     }
 
     .Sektion-MedBillede button:hover {
