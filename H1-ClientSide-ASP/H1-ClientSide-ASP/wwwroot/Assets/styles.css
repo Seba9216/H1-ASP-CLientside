@@ -10,35 +10,135 @@ iframe {
 }
 
 .NavBar {
-    left:25%;
+    left: 25%;
 }
 
+.Sektion-MedBillede {
+    font-family: 'DMSerifText',sans-serif;
+    color: white;
+    height: 150px;
+    width: 60%;
+    background-image: url(main-qimg-23026aa11412ac2a28cc8482ccd68259-lq.jfif);
+    padding-left: 10em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+    position: relative
+}
+
+    .Sektion-MedBillede h3 {
+        color: white;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        padding-bottom: 40%;    
+    }
+
+    .Sektion-MedBillede button {
+        display: block;
+        background-color: #23c8ff;
+        height: 35px;
+        border-radius: 7px;
+        font-size: 15px;
+        color: white;
+        border: none;
+        position: absolute;
+        bottom: 22%;
+        right: 3%;
+        justify-content: space-between;
+    }
+
+    .Sektion-MedBillede .Btn-1-Holder {
+        justify-content: flex-end;
+        display: flex;
+    }
+
+    .Sektion-MedBillede a{
+        color:white;
+        text-decoration: none;
+        display:block
+      
+    }
+    .Sektion-MedBillede li {
+        color: white;
+        text-decoration: none;
+    }
+
+    .Sektion-MedBillede button:hover {
+        background-color: #23efff;
+        cursor: pointer
+    }
+
 .NavBar, ul, li {
+    font-family: 'DMSerifText',sans-serif;
     align-items: flex-end;
     display: inline-flex;
     list-style: none;
     align-content: space-evenly;
     padding-right: 50px;
-    position:relative;
+    position: relative;
     top: 0;
-    align-items:center;
-}
-header{
-    top:0; 
+    align-items: center;
 }
 
-.NavBar a{
-    color: black; 
+header {
+    top: 0;
+    font-size: 0;
+}
+
+.NavBar a {
+    color: black;
     text-decoration: none;
-    text-align:center
+    text-align: center;
 }
-.NavBar img{
-    align-self:center;
-    position:relative;
-    height:auto;
-    width:500%;
+
+.NavBar img {
+    align-self: center;
+    position: relative;
+    height: auto;
+    width: 500%;
 }
+
 a:hover {
-    color: lightgreen;
+    color: rgba(0, 200, 0, 1);
     text-decoration: none;
+    background-color: rgba(0,0,0,0.01);
+}
+
+body {
+    background-color: rgba(0,0,0,0.009);
+}
+
+header {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.Sektion1 {
+    background-color: black;
+}
+
+.Sektion2 {
+    background-color: white;
+}
+
+@media (max-width: 1200px) {
+
+    #NavbarDropDown {
+        visibility: visible;
+    }
+
+    #NavBar {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    #NavBar {
+        visibility: visible;
+    }
+
+    #NavbarDropDown {
+        visibility: hidden;
+    }
 }

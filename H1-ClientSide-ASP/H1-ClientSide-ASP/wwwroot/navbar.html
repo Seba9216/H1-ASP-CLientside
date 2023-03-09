@@ -1,25 +1,35 @@
 ﻿<!DOCTYPE html>
+<meta http-equiv="pragma" content="no-cache" />
 <html>
 <head>
     <meta charset="utf-8" />
     <title></title>
 </head>
 <body>
-    <link rel="stylesheet" href="Assets/styles.css"/>
-    <div class="NavBar">
-        <img src="Assets/log-noaspectratio.svg" />
-        <ul>
-            <li><a href="index.html" onclick="redirectTo('index.html')">Home</a> </li>
-            <li><a href="index.html">About us</a></li>
-            <li><a href="index.html">Our Projects</a></li>
-            <li><a href="index.html">Contact us!</a></li>
-        </ul>
-    </div>
+
     <script>
         function redirectTo(url) {
             window.parent.location.href = url;
         }
 
     </script>
+
+    <link rel="stylesheet" href="Assets/styles.css" />
+    <div class="NavBar">
+        <img src="Assets/log-noaspectratio.svg" />
+        <select id="NavbarDropDown" onchange="redirectTo(this.value) ">
+            <option value="index.html">Naviger siden</option>
+            <option value="index.html">Home</option>
+            <option value="aboutus.html">About Us</option>
+            <option value="ourprojects.html">Our Projects</option>
+            <option value="contact.html">Contact us!</option>
+        </select>
+        <ul id="NavBar">
+            <li><a href="index.html" onclick="redirectTo('index.html')">Home</a> </li>
+            <li><a href="index.html" onclick="redirectTo('aboutus.html')">About Us</a> </li>
+            <li><a href="index.html" onclick="redirectTo('ourprojects.html')">Our Projects</a> </li>
+            <li><a href="index.html">Contact us!</a></li>
+        </ul>
+    </div>
 </body>
 </html>

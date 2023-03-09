@@ -7,13 +7,31 @@
 <body>
     <header>
         <link rel="stylesheet" href="Assets/styles.css" />
-        <iframe src="navbar.html"></iframe>
+        <iframe src="navbar.html" scrolling="no"></iframe>
     </header>
-    <div>
-        <p>
-        Hej Dette er en test
-        </p>
+    <div class="Sektion-MedBillede">
+        <div>
+            <h3>Coperate News</h3>
+            <div id="NavCoperate">
+                <ul>
+                    <li><a href="index.html">Our latest Project</a></li>
+                    <li><a href="index.html">What are we know for?</a></li>
+                    <li><a href="index.html">most recent company inovation</a></li>
+                    <li><a href="index.html">Sign up for newsletter </a></li>
+                </ul>
+            </div>
+        </div> 
+        
+        <div class="Btn-1-Holder">
+            <button id="FirstBtn" class="Btn-1" onclick="">Learn more about us</button>
+        </div>
     </div>
+
+    <script type="text/javascript">
+        document.getElementById("FirstBtn").onclick = function () {
+            location.href = "aboutus.html";
+        };
+    </script>
 
 </body>
 </html>
